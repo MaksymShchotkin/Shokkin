@@ -1,0 +1,107 @@
+17:06:08.633 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.shokkin.Shokkin.EventAllureJUnitTests]: EventAllureJUnitTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:06:08.791 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.shokkin.Shokkin.ShokkinApplication for test class com.shokkin.Shokkin.EventAllureJUnitTests
+17:06:09.140 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Starting EventAllureJUnitTests using Java 19.0.1 with PID 11964 (started by maksy in C:\Users\maksy\Desktop\домашка\учебка\Shokkinn\Shokkin)
+17:06:09.141 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - No active profile set, falling back to 1 default profile: "default"
+17:06:09.636 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:06:09.707 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+17:06:10.147 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:06:10.224 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+17:06:10.279 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17:06:10.600 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+17:06:10.625 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:06:10.925 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ba06506
+17:06:10.926 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:06:10.988 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+17:06:11.837 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17:06:11.876 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:06:12.140 [main] INFO  com.shokkin.Shokkin.Service.EventService - Initialising Event Mapper and Repository!
+17:06:12.254 [main] INFO  com.shokkin.Shokkin.Service.UserService - Initialising User Mapper and Repository!
+17:06:12.433 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Started EventAllureJUnitTests in 3.513 seconds (process running for 5.071)
+17:06:12.878 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Beginning of testing Event DTO.
+17:06:12.878 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Testing creating a new DTO Event.
+17:06:12.878 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - STesting saving created DTO to DB.
+17:06:12.878 [main] INFO  com.shokkin.Shokkin.Service.EventService - Saving and Event DTO into DB!
+17:06:12.920 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Testing reading Event from the DB by the ID
+17:06:12.920 [main] INFO  com.shokkin.Shokkin.Service.EventService - Checking if event exists and reading it.
+17:06:12.928 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Testing assertion that right parameters were saved to DB.
+17:06:12.948 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:06:12.950 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:06:12.957 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:40:55.027 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.shokkin.Shokkin.EventAllureJUnitTests]: EventAllureJUnitTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:40:55.174 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.shokkin.Shokkin.ShokkinApplication for test class com.shokkin.Shokkin.EventAllureJUnitTests
+17:40:55.605 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Starting EventAllureJUnitTests using Java 17.0.7 with PID 2156 (started by maksy in C:\Users\maksy\Desktop\�������\������\Shokkinn\Shokkin)
+17:40:55.606 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - No active profile set, falling back to 1 default profile: "default"
+17:40:56.181 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:40:56.258 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+17:40:56.769 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:40:56.855 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+17:40:56.906 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17:40:57.260 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+17:40:57.300 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:40:57.763 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71139e77
+17:40:57.765 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:40:57.837 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+17:40:58.793 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17:40:58.837 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:40:59.117 [main] INFO  com.shokkin.Shokkin.Service.EventService - Initialising Event Mapper and Repository!
+17:40:59.230 [main] INFO  com.shokkin.Shokkin.Service.UserService - Initialising User Mapper and Repository!
+17:40:59.388 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Started EventAllureJUnitTests in 4.065 seconds (process running for 5.537)
+17:40:59.914 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Beginning of testing Event DTO.
+17:40:59.914 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Testing creating a new DTO Event.
+17:40:59.915 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - STesting saving created DTO to DB.
+17:40:59.915 [main] INFO  com.shokkin.Shokkin.Service.EventService - Saving and Event DTO into DB!
+17:40:59.959 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Testing reading Event from the DB by the ID
+17:40:59.959 [main] INFO  com.shokkin.Shokkin.Service.EventService - Checking if event exists and reading it.
+17:40:59.967 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Testing assertion that right parameters were saved to DB.
+17:40:59.995 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.shokkin.Shokkin.TestUserSignInLogIn]: TestUserSignInLogIn does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:40:59.998 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.shokkin.Shokkin.ShokkinApplication for test class com.shokkin.Shokkin.TestUserSignInLogIn
+17:41:00.007 [main] INFO  com.shokkin.Shokkin.TestUserSignInLogIn - Beginning of testing User DTO.
+17:41:00.007 [main] INFO  com.shokkin.Shokkin.TestUserSignInLogIn - Testing creating a new DTO User.
+17:41:00.007 [main] INFO  com.shokkin.Shokkin.TestUserSignInLogIn - STesting saving created DTO to DB.
+17:41:00.008 [main] INFO  com.shokkin.Shokkin.Service.UserService - Saving User DTO into DB!
+17:41:00.011 [main] INFO  com.shokkin.Shokkin.TestUserSignInLogIn - Testing reading User from the DB by the ID
+17:41:00.011 [main] INFO  com.shokkin.Shokkin.Service.UserService - Checking if user exists and reading it.
+17:41:00.013 [main] INFO  com.shokkin.Shokkin.TestUserSignInLogIn - Checking for username and verifying password.
+17:41:00.185 [main] INFO  com.shokkin.Shokkin.TestUserSignInLogIn - Testing assertion that right parameters were saved to DB.
+17:41:00.207 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:41:00.210 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:41:00.219 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+12:23:35.067 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.shokkin.Shokkin.EventAllureJUnitTests]: EventAllureJUnitTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:23:35.194 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.shokkin.Shokkin.ShokkinApplication for test class com.shokkin.Shokkin.EventAllureJUnitTests
+12:23:35.559 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Starting EventAllureJUnitTests using Java 19.0.1 with PID 5828 (started by maksy in C:\Users\maksy\Desktop\домашка\учебка\Shokkinn\Shokkin)
+12:23:35.560 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - No active profile set, falling back to 1 default profile: "default"
+12:23:36.087 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12:23:36.165 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+12:23:36.591 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12:23:36.670 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+12:23:36.711 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+12:23:37.065 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+12:23:37.104 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12:23:37.599 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@405d8a80
+12:23:37.601 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12:23:37.662 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+12:23:38.560 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+12:23:38.611 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12:23:38.848 [main] INFO  com.shokkin.Shokkin.Service.EventService - Initialising Event Mapper and Repository!
+12:23:38.950 [main] INFO  com.shokkin.Shokkin.Service.UserService - Initialising User Mapper and Repository!
+12:23:39.111 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Started EventAllureJUnitTests in 3.767 seconds (process running for 5.316)
+12:23:39.551 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Beginning of testing Event DTO.
+12:23:39.551 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Testing creating a new DTO Event.
+12:23:39.551 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - STesting saving created DTO to DB.
+12:23:39.551 [main] INFO  com.shokkin.Shokkin.Service.EventService - Saving and Event DTO into DB!
+12:23:39.609 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Testing reading Event from the DB by the ID
+12:23:39.609 [main] INFO  com.shokkin.Shokkin.Service.EventService - Checking if event exists and reading it.
+12:23:39.616 [main] INFO  com.shokkin.Shokkin.EventAllureJUnitTests - Testing assertion that right parameters were saved to DB.
+12:23:39.638 [main] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.shokkin.Shokkin.TestUserSignInLogIn]: TestUserSignInLogIn does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:23:39.640 [main] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.shokkin.Shokkin.ShokkinApplication for test class com.shokkin.Shokkin.TestUserSignInLogIn
+12:23:39.647 [main] INFO  com.shokkin.Shokkin.TestUserSignInLogIn - Beginning of testing User DTO.
+12:23:39.647 [main] INFO  com.shokkin.Shokkin.TestUserSignInLogIn - Testing creating a new DTO User.
+12:23:39.647 [main] INFO  com.shokkin.Shokkin.TestUserSignInLogIn - STesting saving created DTO to DB.
+12:23:39.648 [main] INFO  com.shokkin.Shokkin.Service.UserService - Saving User DTO into DB!
+12:23:39.660 [main] INFO  com.shokkin.Shokkin.TestUserSignInLogIn - Testing reading User from the DB by the ID
+12:23:39.660 [main] INFO  com.shokkin.Shokkin.Service.UserService - Checking if user exists and reading it.
+12:23:39.661 [main] INFO  com.shokkin.Shokkin.TestUserSignInLogIn - Checking for username and verifying password.
+12:23:39.770 [main] INFO  com.shokkin.Shokkin.TestUserSignInLogIn - Testing assertion that right parameters were saved to DB.
+12:23:39.790 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12:23:39.792 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12:23:39.798 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
